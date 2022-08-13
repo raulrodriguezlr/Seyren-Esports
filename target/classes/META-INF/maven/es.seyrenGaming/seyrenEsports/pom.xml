@@ -10,8 +10,8 @@
 	</parent>
 	<groupId>es.seyrenGaming</groupId>
 	<artifactId>seyrenEsports</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>syrenEsports</name>
+	<version>0.1.0</version>
+	<name>SeyrenEsports</name>
 	<packaging>jar</packaging>
 	<description>Pagina oficial de Seyren Esports</description>
 	<properties>
@@ -60,7 +60,7 @@
 	             <artifactId>spring-boot-maven-plugin</artifactId>
 	             <configuration>
 		             <image>
-		              <name>cuore80getafe:${project.version}</name>
+		              <name>seyrenesports:${project.version}</name>
 		              </image>
 	             </configuration>
 	            </plugin>
