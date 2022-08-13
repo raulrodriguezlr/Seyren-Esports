@@ -20,6 +20,10 @@ public class WebController {
 	public String contact() {
 		return "contact";
 	}
+	@GetMapping("/team")
+	public String team() {
+		return "team";
+	}
 	@GetMapping("/error")
 	public String error() {
 		return "error";
