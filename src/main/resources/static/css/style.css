@@ -105,8 +105,8 @@ h6,
 .btn-square,
 .btn-sm-square,
 .btn-lg-square {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 4px;
+    padding-right: 4px;
     text-align: center;
 }
 
