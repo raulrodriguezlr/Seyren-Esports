@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>es.seyrenGaming</groupId>
 	<artifactId>seyrenEsports</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 	<name>SeyrenEsports</name>
 	<packaging>jar</packaging>
 	<description>Pagina oficial de Seyren Esports</description>
