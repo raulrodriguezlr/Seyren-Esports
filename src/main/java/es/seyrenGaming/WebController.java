@@ -29,4 +29,9 @@ public class WebController {
 		return "error";
 	}
 	
+	@GetMapping("/info")
+	public String info() {
+		return "info";
+	}
+	
 }
