@@ -121,13 +121,15 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Oswald', sans-serif;
-    margin-right: 60px;
+  
     margin-left:30px;
     padding: 80px 0;
     color: var(--light);
     font-size: 30px;
     text-transform: uppercase;
     outline: none;
+   /*ESTO ES LO QUE HE CAMBIADO PARA QUE LA BARRA DE HEADER SEA MAS ESTRECHA*/
+   padding:40px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -268,9 +270,21 @@ h6,
 }
 
 .logo{
-	width:90%;
-	height:90%;
+	width:100%;
+	height:100%;
+	/*transform: scale(1.15);*/
+	margin:2px;
+	/*margin-right:6px;*/
+	/*margin-left:6px;*/
+
+}
+.logoFooter{
+	width:100%;
+	height:100%;
 	transform: scale(0.9);
+	margin:2px;
+	margin-right:6px;
+	margin-left:6px;
 
 }
 .mapa{
@@ -311,3 +325,13 @@ h6,
 	padding: 10px 15px;
 	border-radius: 5px;
 }
+.evento{
+	width:80%;
+	height:80%;
+	transform: scale(0.9);
+	
+}
+
+
+
+/*Mensajes de advertencia*/
