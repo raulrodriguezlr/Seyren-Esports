@@ -1,2 +1,10 @@
 /Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/SyrenEsportsApplication.java
+/Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/model/Peticiones.java
 /Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/WebController.java
+/Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/service/UserService.java
+/Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/DBInitializer.java
+/Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/model/Users.java
+/Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/model/NewUser.java
+/Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/repository/RepoPeticiones.java
+/Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/Rest.java
+/Users/raulrodriguezlopez-rey/git/Seyren-Esports/src/main/java/es/seyrenGaming/repository/RepoUsuario.java

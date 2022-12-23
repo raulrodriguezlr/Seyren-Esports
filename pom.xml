@@ -10,10 +10,10 @@
 	</parent>
 	<groupId>es.seyrenGaming</groupId>
 	<artifactId>seyrenEsports</artifactId>
-	<version>0.1.2</version>
+	<version>0.1.3</version>
 	<name>SeyrenEsports</name>
 	<packaging>jar</packaging>
-	<description>Pagina oficial de Seyren Esports</description>
+	<description>Pagina oficial de Seyren Esports | seyren esports es un club de deportes electronicos actualmente enfocado en valorant </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -21,6 +21,17 @@
 		<dependency> 
 			<groupId>org.springframework.boot</groupId>
 			 <artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.2.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId> 
+			<version>1.5.12</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -38,16 +49,22 @@
 			<scope>provided</scope>
 		</dependency>
 		
-		
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
+		</dependency>
+    
+		
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <scope>runtime</scope>
 		</dependency>
 		
 	
